@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:1919/api";
+const API_URL = "https://simpleapp-production-a0cf.up.railway.app/api";
 
 export const userService = {
   getAll: () => axios.get(`${API_URL}/users`),
